@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="325dp"
+            android:layout_height="47dp"
+            android:text="Transfer Complete"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="313dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/money_transfer__1_"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar10"
+        android:layout_width="268dp"
+        android:layout_height="140dp"
+        android:background="#686DCC"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="470dp"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="219dp"
+        android:layout_height="31dp"
+        android:text="20 Agustus 2021"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="219"
+        android:layout_height="31dp"
+        android:text="082214387xxx"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        android:text="Ifzal"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="161dp"
+        android:layout_height="57dp"
+        android:text="Finish"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="243dp"
+        android:layout_height="52dp"
+        android:text="Rp. 690.000"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

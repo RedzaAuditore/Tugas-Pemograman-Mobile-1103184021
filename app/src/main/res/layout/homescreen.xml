@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <imageview
+        android:id="@+id/btn_capture_photo"
+        android:layout_width="392dp"
+        android:layout_height="108dp"
+        android:src="@drawable/rectangle_background.xml"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="192dp"></imageview>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Balance"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="37dp"
+        android:text="Saldo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:tint="#000000"
+        app:srcCompat="@drawable/icons8_add_64"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="68"
+        android:layout_height="68"
+        app:srcCompat="@drawable/icons8_data_transfer_64"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="68"
+        android:layout_height="68"
+        app:srcCompat="@drawable/icons8_qr_code_64"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F7FFFFFF"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="62dp"
+        android:layout_height="51dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

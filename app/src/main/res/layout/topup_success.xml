@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="232dp"
+        android:layout_height="44dp"
+        android:text="Via Mandiri"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="232dp"
+        android:layout_height="44dp"
+        android:text="20 Agustus 2021"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="234dp"
+        android:layout_height="231dp"
+        app:srcCompat="@drawable/cash"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:text="Top Up Complete"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="161dp"
+        android:layout_height="57dp"
+        android:text="Finish"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="243dp"
+        android:layout_height="52dp"
+        android:text="Rp. 690.000"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

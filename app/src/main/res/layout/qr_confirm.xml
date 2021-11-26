@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="265dp"
+        android:layout_height="111dp"
+        android:background="#686DCC"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="429dp"></androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0C17D8"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:text="Payment Confirmation"
+        android:textAlignment="center"
+        android:textColor="#F4F4F4"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="199dp"
+        app:srcCompat="@drawable/money_transfer"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="84dp"
+        android:layout_height="44dp"
+        android:text="Rp"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="209dp"
+        android:layout_height="59dp"
+        android:background="#982D2D"
+        android:backgroundTint="#6779BA"
+        android:text="Submit"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        android:text="Kedai Makan A"
+        android:textAlignment="center"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="113dp"
+        android:layout_height="22dp"
+        android:text="Payment to"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="442dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
